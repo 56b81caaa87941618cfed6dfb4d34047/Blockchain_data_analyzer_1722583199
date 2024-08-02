@@ -6,97 +6,100 @@
 
 Vue.component("items_table_component_1722583478", {
     template: `
-    <section id="items-table-component" class="py-8 bg-white">
-        <h2 id="costs-title" class="text-lg font-semibold mb-5">Blockchain Analysis Tools</h2>
-        <div id="costs-table-container" class="overflow-x-auto">
-            <table id="costs-table" class="table-auto w-full text-sm">
-                <thead id="costs-table-header" class="sr-only" id="costs-table-header">
-                    <tr>
-                        <th id="description-header">Description</th>
-                        <th id="cost-header" scope="col">Cost</th>
-                    </tr>
-                </thead>
-                <tbody id="costs-table-body">
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-1" >
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg after:w-px after:h-8 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 group-hover:after:opacity-0 after:transition-opacity after:bg-slate-200 dark:after:bg-slate-800" id="costs-cell-description-1">
-                            <div class="font-semibold mb-0.5" id="costs-link-1">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" >
-                                    Blockchain Data Parser
-                                </a>
-                            </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800" id="costs-description-1">Extract insights from raw blockchain data</p>
-                        </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-1">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$99/month</a>
-                        </td>
-                    </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-1" >
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg after:w-px after:h-8 after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 group-hover:after:opacity-0 after:transition-opacity after:bg-slate-200 dark:after:bg-slate-800" id="costs-cell-description-1">
-                            <div class="font-semibold mb-0.5" id="costs-link-1">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" >
-                                    Smart Contract Auditor
-                                </a>
-                            </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800" id="costs-description-1">Automatically verify smart contract security</p>
-                        </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-1">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$149/month</a>
-                        </td>
-                    </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-3">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-3">
-                            <div class="font-semibold mb-0.5"  id="costs-link-3">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">On-Chain Analytics Suite</a>
-                            </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-3">Visualize on-chain metrics and trends</p>
-                        </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-3">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$199/month</a>
-                        </td>
-                    </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-4">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-4">
-                            <div class="font-semibold mb-0.5"  id="costs-link-4">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">Decentralized App Monitor</a>
-                            </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-4">Monitor dapp usage, transactions, and issues</p>
-                        </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50% after:text-blue-500" id="costs-cell-cost-4">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$249/month</a>
-                        </td>
-                    </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-5">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-5">
-                            <div class="font-semibold mb-0.5"  id="costs-link-5">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">Crypto Wallet Tracker</a>
-                            </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-5">Track wallet balances across multiple chains</p>
-                        </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50%" id="costs-cell-cost-5 after:text-blue-500">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$99/month</a>
-                        </td>
-                    </tr>
-                    <tr class="group odd:bg-gradient-to-tr from-slate-100 to-slate-50 dark:from-slate-800/80 dark:to-slate-900" id="costs-row-6">
-                        <th scope="row" class="relative text-left font-normal px-4 py-5 first:rounded-l-lg last:rounded-r-lg" id="costs-cell-description-6">
-                            <div class="font-semibold mb-0.5"  id="costs-link-6">
-                                <a class="before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html">ICO Investigation Tool</a>
-                            </div>
-                            <p class="after:bg-slate-200 dark:after:bg-slate-800"  id="costs-description-6">Investigate ICO code, investors, and distributions</p>
-                        </th>
-                        <td class="relative font-semibold text-right px-4 py-5 first:rounded-l-lg last:rounded-r-lg w-[1%] after:content-['Details_->'] after:absolute after:inset-0 after:pr-4 after:flex after:items-center after:justify-end after:pointer-events-none after:rounded-lg after:font-medium after:tracking-normal after:whitespace-nowrap after:opacity-0 group-hover:after:opacity-100 after:transition after:bg-gradient-to-l after:from-white group-odd:after:from-slate-50 dark:after:from-slate-950 group-odd:dark:after:from-slate-900 after:to-50%" id="costs-cell-cost-6 after:text-blue-500">
-                            <a class="group-hover:opacity-0 transition-opacity before:absolute before:inset-0 before:z-20 before:rounded-lg" href="details.html" tabindex="-1">$299/month</a>
-                        </td>
-                    </tr>
-                </tbody>
-                <tfoot id="costs-table-footer">
-                    <tr>
-                        <th id="total-description" scope="row" class="relative text-left font-normal px-4 py-5">
-                            <p id="total-description-text" class="italic text-slate-500">TOT in USD dollar</p>
-                        </th>
-                        <td id="total-cost" class="relative font-semibold text-right text-base underline px-4 py-5 w-[1%] text-emerald-500"> $1094</td>
-                    </tr>
-                </tfoot>
-            </table>
+    <section id="items-table-component" class="py-8 bg-gradient-to-br from-pink-400 to-purple-600 relative overflow-hidden">
+        <div class="absolute inset-0 backdrop-blur-md bg-white/10"></div>
+        <div class="relative z-10">
+            <h2 id="costs-title" class="text-2xl font-bold mb-5 text-white">Blockchain Analysis Tools</h2>
+            <div id="costs-table-container" class="overflow-x-auto rounded-lg shadow-lg backdrop-blur-lg bg-white/20">
+                <table id="costs-table" class="table-auto w-full text-sm">
+                    <thead id="costs-table-header" class="text-white">
+                        <tr>
+                            <th id="description-header" class="px-4 py-2 text-left">Description</th>
+                            <th id="cost-header" scope="col" class="px-4 py-2 text-right">Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody id="costs-table-body">
+                        <tr class="group hover:bg-white/30 transition-colors duration-200" id="costs-row-1">
+                            <th scope="row" class="text-left font-normal px-4 py-3" id="costs-cell-description-1">
+                                <div class="font-semibold mb-0.5 text-white" id="costs-link-1">
+                                    <a class="hover:text-pink-200" href="details.html">
+                                        Blockchain Data Parser
+                                    </a>
+                                </div>
+                                <p class="text-purple-100" id="costs-description-1">Extract insights from raw blockchain data</p>
+                            </th>
+                            <td class="font-semibold text-right px-4 py-3 text-white" id="costs-cell-cost-1">
+                                <a class="hover:text-pink-200" href="details.html" tabindex="-1">$99/month</a>
+                            </td>
+                        </tr>
+                        <tr class="group hover:bg-white/30 transition-colors duration-200" id="costs-row-2">
+                            <th scope="row" class="text-left font-normal px-4 py-3" id="costs-cell-description-2">
+                                <div class="font-semibold mb-0.5 text-white" id="costs-link-2">
+                                    <a class="hover:text-pink-200" href="details.html">
+                                        Smart Contract Auditor
+                                    </a>
+                                </div>
+                                <p class="text-purple-100" id="costs-description-2">Automatically verify smart contract security</p>
+                            </th>
+                            <td class="font-semibold text-right px-4 py-3 text-white" id="costs-cell-cost-2">
+                                <a class="hover:text-pink-200" href="details.html" tabindex="-1">$149/month</a>
+                            </td>
+                        </tr>
+                        <tr class="group hover:bg-white/30 transition-colors duration-200" id="costs-row-3">
+                            <th scope="row" class="text-left font-normal px-4 py-3" id="costs-cell-description-3">
+                                <div class="font-semibold mb-0.5 text-white" id="costs-link-3">
+                                    <a class="hover:text-pink-200" href="details.html">On-Chain Analytics Suite</a>
+                                </div>
+                                <p class="text-purple-100" id="costs-description-3">Visualize on-chain metrics and trends</p>
+                            </th>
+                            <td class="font-semibold text-right px-4 py-3 text-white" id="costs-cell-cost-3">
+                                <a class="hover:text-pink-200" href="details.html" tabindex="-1">$199/month</a>
+                            </td>
+                        </tr>
+                        <tr class="group hover:bg-white/30 transition-colors duration-200" id="costs-row-4">
+                            <th scope="row" class="text-left font-normal px-4 py-3" id="costs-cell-description-4">
+                                <div class="font-semibold mb-0.5 text-white" id="costs-link-4">
+                                    <a class="hover:text-pink-200" href="details.html">Decentralized App Monitor</a>
+                                </div>
+                                <p class="text-purple-100" id="costs-description-4">Monitor dapp usage, transactions, and issues</p>
+                            </th>
+                            <td class="font-semibold text-right px-4 py-3 text-white" id="costs-cell-cost-4">
+                                <a class="hover:text-pink-200" href="details.html" tabindex="-1">$249/month</a>
+                            </td>
+                        </tr>
+                        <tr class="group hover:bg-white/30 transition-colors duration-200" id="costs-row-5">
+                            <th scope="row" class="text-left font-normal px-4 py-3" id="costs-cell-description-5">
+                                <div class="font-semibold mb-0.5 text-white" id="costs-link-5">
+                                    <a class="hover:text-pink-200" href="details.html">Crypto Wallet Tracker</a>
+                                </div>
+                                <p class="text-purple-100" id="costs-description-5">Track wallet balances across multiple chains</p>
+                            </th>
+                            <td class="font-semibold text-right px-4 py-3 text-white" id="costs-cell-cost-5">
+                                <a class="hover:text-pink-200" href="details.html" tabindex="-1">$99/month</a>
+                            </td>
+                        </tr>
+                        <tr class="group hover:bg-white/30 transition-colors duration-200" id="costs-row-6">
+                            <th scope="row" class="text-left font-normal px-4 py-3" id="costs-cell-description-6">
+                                <div class="font-semibold mb-0.5 text-white" id="costs-link-6">
+                                    <a class="hover:text-pink-200" href="details.html">ICO Investigation Tool</a>
+                                </div>
+                                <p class="text-purple-100" id="costs-description-6">Investigate ICO code, investors, and distributions</p>
+                            </th>
+                            <td class="font-semibold text-right px-4 py-3 text-white" id="costs-cell-cost-6">
+                                <a class="hover:text-pink-200" href="details.html" tabindex="-1">$299/month</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot id="costs-table-footer">
+                        <tr>
+                            <th id="total-description" scope="row" class="text-left font-normal px-4 py-3">
+                                <p id="total-description-text" class="italic text-purple-200">TOT in USD dollar</p>
+                            </th>
+                            <td id="total-cost" class="font-semibold text-right text-base underline px-4 py-3 text-pink-300">$1094</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </div>
     </section>
     `,
