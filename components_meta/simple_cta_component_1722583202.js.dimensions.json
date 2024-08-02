@@ -1,18 +1,21 @@
 {
     "component_name": "simple_cta_component",
-    "id": "simple_cta_component_1722583202.js",
+    "id": "simple_cta_component_1722583202",
     "type": "containerComponent",
-    "metadata": {},
+    "metadata": {
+        "markdownText": "/* Summary: This component contains a h2 heading title for the CTA, a line of text under it, and a button underneath it. They are all centre aligned.\n*/\nVue.component(\"simple_cta_component_1722583202\", {\n    template: `\n    <section id=\"cta-component\" class=\"bg-gradient-to-br from-pink-500 to-purple-700 flex-1 p-8\">\n        <div id=\"cta-inner-container\" class=\"max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6 bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl shadow-lg\">\n            <div id=\"cta-content\" class=\"max-w-screen-sm mx-auto text-center\">\n                <div id=\"cta-title-container\" class=\"flex\">\n                    <h2 id=\"cta-title\" class=\"flex-1 mb-4 text-4xl font-extrabold leading-tight tracking-tight text-white\">Unlock Cosmic Blockchain Insights</h2>\n                </div>\n\n                <div id=\"cta-subtitle-container\" class=\"flex\">\n                    <p id=\"cta-subtitle\" class=\"flex-1 mb-6 font-light text-pink-100 md:text-lg\">Journey through our celestial analytics to uncover real-time secrets of the blockchain universe.</p>\n                </div>\n                \n                <div id=\"cta-button-container\" class=\"flex\">\n                    <a id=\"cta-button\" href=\"#\" class=\"flex-1 text-purple-900 bg-pink-300 bg-opacity-70 hover:bg-opacity-80 focus:ring-4 focus:ring-pink-200 font-medium rounded-full text-lg px-8 py-3 transition duration-300 ease-in-out transform hover:scale-105\">Explore Cosmic Analytics</a>\n                </div>\n            </div>\n        </div>\n    </section>\n    `,\n    data() {\n        return {\n            expanded: false,\n            tab: null,\n        };\n    },\n});\n"
+    },
     "w": 12,
     "h": 8,
-    "x": "50",
-    "y": "50",
-    "i": "__dropping-elem__",
+    "x": 0,
+    "y": 16,
+    "i": "1",
     "minW": 3,
     "maxW": 12,
     "minH": 1,
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true
+    "isResizable": true,
+    "name": ""
 }
